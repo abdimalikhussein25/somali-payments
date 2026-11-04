@@ -5,14 +5,26 @@
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
-  "engines": { "node": ">=18" },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
   },
-  "keywords": ["somalia", "evc-plus", "zaad", "sahal", "waafipay", "mobile-money", "payments"],
+  "keywords": [
+    "somalia",
+    "evc-plus",
+    "zaad",
+    "sahal",
+    "waafipay",
+    "mobile-money",
+    "payments"
+  ],
   "author": "Abdimalik Salad Hussein",
   "license": "MIT",
   "devDependencies": {

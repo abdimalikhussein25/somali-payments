@@ -2,7 +2,7 @@
 
 Accept **EVC Plus**, **Zaad** and **Sahal** mobile-money payments from Node.js through [WaafiPay](https://waafipay.com). Typed, tested, and with zero runtime dependencies.
 
-![Node](https://img.shields.io/badge/node-%3E%3D18-339933?logo=nodedotjs&logoColor=white)
+![Node](https://img.shields.io/badge/node-%3E%3D20-339933?logo=nodedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
