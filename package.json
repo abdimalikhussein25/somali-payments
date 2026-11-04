@@ -1,7 +1,7 @@
 {
   "name": "somali-payments",
   "version": "0.1.0",
-  "description": "Accept EVC Plus, Zaad and Sahal payments in Node.js via WaafiPay — typed, tested, zero dependencies.",
+  "description": "Accept EVC Plus, Zaad and Sahal payments in Node.js via WaafiPay. Typed, tested, zero dependencies.",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
