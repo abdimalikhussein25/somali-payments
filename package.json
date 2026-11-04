@@ -1,0 +1,23 @@
+{
+  "name": "somali-payments",
+  "version": "0.1.0",
+  "description": "Accept EVC Plus, Zaad and Sahal payments in Node.js via WaafiPay — typed, tested, zero dependencies.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["somalia", "evc-plus", "zaad", "sahal", "waafipay", "mobile-money", "payments"],
+  "author": "Abdimalik Salad Hussein",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
