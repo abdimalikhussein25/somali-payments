@@ -1,6 +1,6 @@
 # somali-payments
 
-Accept **EVC Plus**, **Zaad** and **Sahal** mobile-money payments from Node.js through [WaafiPay](https://waafipay.com) — typed, tested, and with zero runtime dependencies.
+Accept **EVC Plus**, **Zaad** and **Sahal** mobile-money payments from Node.js through [WaafiPay](https://waafipay.com). Typed, tested, and with zero runtime dependencies.
 
 ![Node](https://img.shields.io/badge/node-%3E%3D18-339933?logo=nodedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white)
@@ -83,13 +83,13 @@ detectWallet("0907123456");         // "SAHAL"
 | Invalid phone or amount | Rejects with `InvalidPhoneError` / `Error` **before** any API call |
 | Network failure, timeout, non-2xx | Rejects with `WaafiPayNetworkError` |
 
-A network error does **not** mean the payment failed — the customer may still have approved it. Always reconcile by `referenceId` before retrying with a new one.
+A network error does **not** mean the payment failed; the customer may still have approved it. Always reconcile by `referenceId` before retrying with a new one.
 
 ## Security notes
 
 - Keep `apiKey` on the server. Never ship it to a browser or mobile app.
 - Use a unique `referenceId` per attempt so you can reconcile and avoid double charges.
-- Confirm the amount on your server — never trust an amount sent from the client.
+- Confirm the amount on your server and never trust an amount sent from the client.
 
 ## Example
 
@@ -109,4 +109,4 @@ Not affiliated with WaafiPay, Hormuud, Telesom or Golis. Verify field names and 
 
 ## License
 
-MIT © Abdimalik Salad Hussein — [Fiddo Technology](https://fiddotechnology.com)
+MIT © Abdimalik Salad Hussein · [Fiddo Technology](https://fiddotechnology.com)
